@@ -1,1 +1,72 @@
+section{
+    padding: 60px 0;
+    background-color: rgb(128, 177, 146)
+}
 
+:root {
+  --primary: #52588f;
+  --secondary: #493548;
+  --third: #6a8d92;
+  --main: #80b192;
+  --light: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+  background-color: var(--secondary);
+}
+
+.navbar-brand{
+    background-color: var(--secondary)
+}
+
+.navbar-brand span{
+    font-size: 20px;
+    font-family: "DM Sans"
+
+}
+
+.navbar-toggler {
+  border-color: var(--light);
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(250, 235, 215, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-collapse{
+    background-color: var(--third);
+    border-radius: 0 0 8px 8px;
+}
+
+.navbar-collapse a{
+    font-family: "DM Sans";
+    -webkit-text-fill-color: antiquewhite;
+    
+}
+
+.main{
+    background-color: rgb(128, 177, 146);
+}
+
+.main h1{
+    font-size: 4.5rem;
+    font-family: "Montserrat";
+
+}
+
+.main h6{
+    font-size: 1.2rem;
+    font-family: "DM Sans";
+}
+
+.main p{
+    font-size: 0.7rem;
+    font-family: "Open Sans";
+}
